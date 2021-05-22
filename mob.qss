@@ -1,0 +1,211 @@
+#MainWindow{
+	background-color: rgb(255, 255, 255);
+	
+
+}
+#centralwidget{
+	background-color: rgb(255, 255, 255);
+}
+
+/*#tab_2 {
+border-image:url(./statics/bg.jpg) 0 0 0 0 ;
+ 
+}
+*/
+
+/*size of image 499-730*/
+#bg_image_label{
+/* border-image:url(./statics/bg1.jpg) 0 0 0 0  ; */
+background-image: url(./statics/bg1.jpg);
+}
+
+/* #logonname{
+border-image:url(./statics/21logonname.jpg) 0 0 0 0  ;
+ 
+} */
+#timelabel{
+    background-color: rgb(2,204,198);
+    color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+}
+
+#logo_label{
+background-color: rgb(2,204,198);
+border-image:url(./statics/21logonname.png) 0 0 0 0;
+ 
+}
+QLineEdit {
+    border: 2px solid rgb(236,237,239);
+    border-radius: 10px;
+    padding: 0 8px;
+    background:rgb(236,237,239);
+    selection-background-color: darkgray;
+}
+
+#lineEdit_Message {
+    border: 2px solid rgb(236,237,239);
+    border-radius: 10px;
+    padding: 0 8px;
+    background:transparent;
+    selection-background-color: darkgray;
+}
+#lineEdit_greetings{
+    border: 2px solid rgb(236,237,239);
+    border-radius: 10px;
+    padding: 0 8px;
+    background:transparent;
+    selection-background-color: darkgray;
+}
+
+#pushButton_Start{
+background-color: rgb(2,204,198);
+color: rgb(255, 255, 255);
+border-radius: 20px;
+min-height: 40px;
+min-width: 120px;
+padding: 4px;
+/* font: Arial bold 20px; */
+
+}
+#pushButton_Apply{
+background-color: rgb(2,204,198);
+color: rgb(255, 255, 255);
+border-radius: 20px;
+min-height: 40px;
+min-width: 120px;
+padding: 4px;
+/* font: Arial bold 30px; */
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid rgb(0, 0, 0);
+  
+}
+
+/* QCheckBox:hover:!pressed
+{
+  border: 1px solid rgb(0, 0, 0);
+} */
+
+
+#pushButton_Reset{
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+min-height: 40px;
+min-width: 120px;
+padding: 4px;
+/* font: Arial bold 30px; */
+}
+
+QPushButton{
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+min-height: 40px;
+min-width: 120px;
+padding: 4px;
+font: Arial bold 20px;
+
+}
+
+/* DATE & TIME*/
+#dateEdit{
+    border: 2px solid rgb(236,237,239);
+    border-radius: 10px;
+    padding: 8px;
+    background:transparent;
+    selection-background-color: darkgray;
+}
+QDateEdit::drop-down {
+    
+	image: url(./statics/calender_icon.png);
+    width:50px;
+    height:30px;
+
+}
+QTimeEdit::down-arrow{
+	image: url(./statics/down-arrow_icon.png);
+    width:50px;
+    height:30px;
+}
+QTimeEdit::up-arrow{
+	image: url(./statics/up-arrow_icon.png);
+    width:50px;
+    height:30px;
+}
+/*QDateEdit::down-arrow
+{
+border-radius: 10px;
+	image: url(./statics/calender.jpg);
+}*/
+
+#timeEdit_Start{
+    border: 2px solid rgb(236,237,239);
+    border-radius: 10px;
+    padding: 5px;
+    background:transparent;
+    selection-background-color: darkgray;
+}
+#timeEdit_End{
+    border: 2px solid rgb(236,237,239);
+    border-radius: 10px;
+    padding: 5px;
+    background:transparent;
+    selection-background-color: darkgray;
+}
+
+
+ QCheckBox::indicator {
+     width: 30px;
+     height: 20px;
+ }
+  QCheckBox::indicator:checked
+  {
+	 image:url(./statics/enable_icon.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+    image: url(./statics/disable_icon.png);
+  }
+
+#spinBox1{
+    border: 2px solid rgb(236,237,239);
+    border-radius: 10px;
+    padding: 0 8px;
+    background:transparent;
+    selection-background-color: darkgray;
+}
+QSpinBox::down-arrow{
+	image: url(./statics/down-arrow_icon.png);
+    width:50px;
+    height:30px;
+}
+QSpinBox::up-arrow{
+	image: url(./statics/up-arrow_icon.png);
+    width:50px;
+    height:30px;
+}
+QCalendarWidget QWidget{
+  background-color: rgb(2,204,198);
+  color: black;
+
+}
+QCalendarWidget QToolButton {
+	color: white;
+	background-color: rgb(2,204,198);
+  }
+QCalendarWidget QMenu{
+    background-color: rgb(2,204,198);
+	color: white;
+}
+QCalendarWidget QSpinBox{
+    background-color:  rgb(2,204,198);
+    color: white;
+}
+QCalendarWidget QAbstractItemView
+{
+background-color: rgb(255, 255, 255);
+selection-background-color: rgb(2,204,198);
+selection-color: white; 
+
+}
