@@ -3,7 +3,7 @@ Meetobot
 google meeting auto attender with some feature like auto-response
 ![image](https://user-images.githubusercontent.com/45038608/119228806-5f814b80-bb32-11eb-9c81-ddcf6422ff38.png)
 
-requirements:
+Prerequisites:
 Pyqt5
 
 
