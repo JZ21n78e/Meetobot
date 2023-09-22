@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="asd">
+    <file>21logonname.png</file>
+    <file>bg.jpg</file>
+    <file>app_icon.png</file>
+  </qresource>
+</RCC>

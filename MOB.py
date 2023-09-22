@@ -94,7 +94,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.browser = self.findChild(QWebEngineView,"webEngineView") # webengineview
         self.page = WebEnginePage()
         self.browser.setPage(self.page)
-        self.browser.setUrl(QUrl("https://www.21n78e.com/MOB/app/mob-app.html"))# default url
+        self.browser.setUrl(QUrl("https://projects.21n78e.net/mob/app/mob-app.html"))# default url
         # self.browser.loadFinished.connect(self.onLoadFinished)
         self.threadpool = QtCore.QThreadPool()	
         self.threadpool.setMaxThreadCount(1)
