@@ -165,7 +165,7 @@ class MainWindow(QtWidgets.QMainWindow):
         except :
             pass
         # QtTest.QTest.qWait(10000)
-        self.browser.setUrl(QUrl("https://www.21n78e.com/MOB/app/mob-app.html"))
+        self.browser.setUrl(QUrl("https://projects.21n78e.net/mob/app/mob-app.html"))
 
     
     def start_worker(self):
@@ -287,7 +287,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.browser.page().runJavaScript(self.jsloader.leavenow)
         QtTest.QTest.qWait(2000)
         self.timelabel.setText('welcome  to Meet-O-Bot')
-        self.browser.setUrl(QUrl("https://www.21n78e.com/MOB/app/mob-app.html"))
+        self.browser.setUrl(QUrl("https://projects.21n78e.net/mob/app/mob-app.html"))
 
     def closeEvent(self,event):
         '''
